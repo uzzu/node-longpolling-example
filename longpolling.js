@@ -73,7 +73,7 @@ var LongPollingApp = function() {
     sys.puts('close');
   };
 
-  sys.puts('New TestApp');
+  sys.puts('New LongPollingApp');
 
   fs.readFile('./index.html', function (err, data) {
     if (err) throw err;
